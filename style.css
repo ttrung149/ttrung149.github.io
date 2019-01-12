@@ -1,5 +1,6 @@
 .container.custom-container {
-  width: 60%;
+  max-width: 800px;
+  overflow-x: hidden;
 }
 
 body {
