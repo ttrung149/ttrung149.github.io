@@ -1,4 +1,6 @@
-window.onload = function() {
+setTimeout(display, 1500);
+
+function display() {
   document.querySelector("#loader").style.display = "none";
   document.querySelector(".custom-container").style.display = "block";
   window.sr = ScrollReveal();
@@ -83,4 +85,4 @@ window.onload = function() {
     duration: 500,
     origin: "bottom"
   });
-};
+}
