@@ -1,9 +1,9 @@
-setTimeout(display, 1500);
+setTimeout(display, 500);
+window.sr = ScrollReveal();
 
 function display() {
   document.querySelector("#loader").style.display = "none";
   document.querySelector(".custom-container").style.display = "block";
-  window.sr = ScrollReveal();
 
   sr.reveal("#about", {
     duration: 1000,
@@ -12,16 +12,6 @@ function display() {
   });
 
   sr.reveal("#myCarousel", {
-    duration: 500,
-    origin: "bottom"
-  });
-
-  sr.reveal("#nam", {
-    duration: 1000,
-    origin: "bottom"
-  });
-
-  sr.reveal("#robots", {
     duration: 500,
     origin: "bottom"
   });
@@ -35,6 +25,22 @@ function display() {
     duration: 700,
     origin: "bottom"
   });
+  sr.reveal("#a-star", {
+    duration: 1000,
+    origin: "bottom"
+  });
+}
+
+window.onload = function() {
+  sr.reveal("#nam", {
+    duration: 1000,
+    origin: "bottom"
+  });
+
+  sr.reveal("#robots", {
+    duration: 500,
+    origin: "bottom"
+  });
 
   sr.reveal("#nam2", {
     duration: 500,
@@ -43,11 +49,6 @@ function display() {
 
   sr.reveal("#random", {
     duration: 500,
-    origin: "bottom"
-  });
-
-  sr.reveal("#a-star", {
-    duration: 1000,
     origin: "bottom"
   });
 
@@ -80,9 +81,4 @@ function display() {
     duration: 500,
     origin: "bottom"
   });
-
-  sr.reveal("#triangle", {
-    duration: 500,
-    origin: "bottom"
-  });
-}
+};
