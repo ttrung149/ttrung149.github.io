@@ -1,10 +1,9 @@
 setTimeout(display, 500);
-window.sr = ScrollReveal();
 
 function display() {
   document.querySelector("#loader").style.display = "none";
   document.querySelector(".custom-container").style.display = "block";
-
+  window.sr = ScrollReveal();
   sr.reveal("#about", {
     duration: 1000,
     origin: "top",
@@ -29,9 +28,7 @@ function display() {
     duration: 1000,
     origin: "bottom"
   });
-}
 
-window.onload = function() {
   sr.reveal("#nam", {
     duration: 1000,
     origin: "bottom"
@@ -81,4 +78,4 @@ window.onload = function() {
     duration: 500,
     origin: "bottom"
   });
-};
+}
