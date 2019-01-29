@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <link rel="shortcut icon" href="assets/logo.png" />
     <title>Trung Truong</title>
 
@@ -82,7 +83,7 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-          <img src="assets/nam.JPG" alt="nam" />
+          <img id="nam" src="assets/nam.JPG" alt="nam" />
           <div id="robots">
             <div class="col-sm-6 divCaption">
               <a href="https://github.com/ttrung149/tuftstelepresence"
@@ -97,29 +98,29 @@
               /></a>
             </div>
           </div>
-          <img src="assets/nam2.JPG" alt="nam" />
-          <div class="divCaption">
-            <img src="assets/random.png" alt="a*" />
+          <img id="nam2" src="assets/nam2.JPG" alt="nam" />
+          <div id="random" class="divCaption">
+            <img src="assets/random.png" alt="random" />
             <p class="custom-caption">Thought it's pretty cool</p>
           </div>
         </div>
 
         <div class="col-md-5">
-          <img src="assets/me.JPG" alt="me" />
-          <img src="assets/fuji.jpg" alt="fuji" />
-          <div class="divCaption">
+          <img id="me" src="assets/me.JPG" alt="me" />
+          <img id="fuji" src="assets/fuji.jpg" alt="fuji" />
+          <div id="a-star" class="divCaption">
             <img src="assets/a1.png" alt="a*" />
             <a class="custom-caption" href="https://ttrung149.github.io/a-star/"
               >A* Implementation</a
             >
           </div>
 
-          <div class="divCaption">
+          <div id="fern" class="divCaption">
             <img src="assets/fern.png" alt="fern" />
             <p class="custom-caption">Fern</p>
           </div>
 
-          <div class="divCaption">
+          <div id="blimp" class="divCaption">
             <img src="assets/blimp.jpg" alt="blimp" />
             <a
               class="custom-caption"
@@ -127,13 +128,15 @@
               >Blimp</a
             >
           </div>
-          <div class="divCaption">
+          <div id="tree" class="divCaption">
             <img src="assets/tree.png" alt="tree" />
             <p class="custom-caption">L-systems</p>
           </div>
-          <img src="assets/bridge.JPG" alt="bridge" />
-          <div class="col-sm-6"><img src="assets/koch.png" alt="koch" /></div>
-          <div class="col-sm-6">
+          <img id="bridge" src="assets/bridge.JPG" alt="bridge" />
+          <div id="koch" class="col-sm-6">
+            <img src="assets/koch.png" alt="koch" />
+          </div>
+          <div id="triangle" class="col-sm-6">
             <img src="assets/triangle.png" alt="triangle" />
           </div>
         </div>
@@ -151,6 +154,7 @@
       integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
       crossorigin="anonymous"
     ></script>
+    <script src="js/animation.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -3,6 +3,25 @@
   overflow-x: hidden;
 }
 
+#myCarousel,
+#nam,
+#about,
+#me,
+#fuji,
+#a-star,
+#robots,
+#nam,
+#fern,
+#blimp,
+#tree,
+#bridge,
+#nam2,
+#random,
+#koch,
+#triangle {
+  visibility: hidden;
+}
+
 body {
   font-family: Courier New !important;
 }
