@@ -3,10 +3,6 @@
   overflow-x: hidden;
 }
 
-.custom-container {
-  display: none;
-}
-
 #loader {
   display: flex;
   position: absolute;
@@ -24,25 +20,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-#myCarousel,
-#nam,
-#about,
-#me,
-#fuji,
-#a-star,
-#robots,
-#nam,
-#fern,
-#blimp,
-#tree,
-#bridge,
-#nam2,
-#random,
-#koch,
-#triangle {
-  visibility: hidden;
 }
 
 body {
@@ -89,6 +66,7 @@ img {
   left: 20px;
   color: white;
   background: black;
+  visibility: hidden;
 }
 
 .custom-caption:hover {
@@ -100,4 +78,13 @@ p {
   color: #383838;
   font-size: 15px;
   max-width: 95%;
+}
+
+.blur {
+  filter: blur(40px);
+  transition: all 0.5s;
+}
+
+.no-blur {
+  transition: all 0.5s;
 }
