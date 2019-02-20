@@ -9,7 +9,7 @@ for (let i = 0; i < document.images.length; i++) {
       elem.style.visibility = "visible";
     });
 
-    document.querySelector("#myCarousel").className = "carousel slide no-blur";
+    document.querySelector("#caption1").style.visibility = "visible";
     image.className = "no-blur";
   };
 
@@ -17,5 +17,5 @@ for (let i = 0; i < document.images.length; i++) {
     let index = image.src.indexOf("min-");
     let src = image.src.slice(index + 4);
     bigImage.src = `assets/${src}`;
-  }, Math.random() * 500 + 500);
+  }, Math.random() * 200 + 300);
 }
